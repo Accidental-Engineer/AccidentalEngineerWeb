@@ -13,13 +13,46 @@ html, body {
 #container{
   height: 452%;
   width: 100%;
+
   margin: 0px;
 }
 
 
 
+#menu ul{
+    list-style: none;
+}
+.tab {
+  float: right;
+  width: 12%;
+  padding: 0px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.8em;
+  line-height: 42px;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+}
+.tab:hover {
+  background: rgba(153, 153, 255, 0.8) ;
+  color: black;
+
+}
+#container #menu{
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+
+}
+#menu a  {
+  text-decoration: none;
+  color: white;
+
+}
 #container #home{
-  background-image: url("../res/2.jpg");
+  background-image: url("../res/images/other/cover.jpg");
   background-repeat: no-repeat;
   height: 22.12%;
   width: 100%;
@@ -136,12 +169,13 @@ html, body {
 }
 figure{
   height: 100%;
+  position: relative;
 
 }
 
 .i figcaption{
   position: absolute;
-  bottom: 180px;
+  bottom: 10px;
   display: none;
   line-height: 15px;
   background-color: #660099;
@@ -181,6 +215,7 @@ figure{
 
 .j {
   margin: 20px;
+  letter-spacing: 1px;
 }
 .art img{
   display: block;
