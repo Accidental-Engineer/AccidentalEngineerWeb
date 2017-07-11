@@ -14,8 +14,11 @@ html, body {
   height: 452%;
   width: 100%;
 
-
+  margin: 0px;
 }
+
+
+
 #menu ul{
     list-style: none;
 }
@@ -41,9 +44,6 @@ html, body {
   height: 50px;
   width: 100%;
   z-index: 1;
-
-
-
 
 }
 #menu a  {
@@ -378,76 +378,6 @@ figure{
 
 }
 
-#footer {
-
-
-  background-color: #5c8a8a;
-}
-#fm{
-  letter-spacing: 2px;
-
-  padding: 10px;
-  margin-left: 5px;;
-  float: left;
-
-}
-#footer a{
-  text-decoration: none;
-  color: #e0ebeb;
-
-}
-#footer h4{
-  color:#e0ebeb;
-}
-#fe{
- float: left;
-  letter-spacing: 2px;
-  padding-left: 10px;
-
-
-  padding-top: 10px;
-  padding-bottom: 15px;
-}
-#fc{
-width: 100%;
-text-align: center;
-
-
-  margin-top: 1%;
-  padding-bottom: 5px;
-  color: #e0ebeb;
-  letter-spacing: 1px;
-  font-size: 12px;
-
-
-}
-.tab{
-
-}
-.tabon{
-  background: rgba(204, 102, 255,0.8) ;
-  border-bottom: 4px solid #ffff4d;
-  color: black;
-}
-#footermain{
-  height: 120px;
-}
-.social{
-  position: relative;
-    letter-spacing: 10px;
-  font-size: 18px;
-
-}
-.hover:hover{
-  color:#3B5998;
-}
-.tr{
-  width: 33%;}
-/* About us content*/
-#aboutbody{
-  height: calc(100% - 50px);
-  position: relative;
-}
 #i{
 	background:url('t.JPG');
 	width:100%;
