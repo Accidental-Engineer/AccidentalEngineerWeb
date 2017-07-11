@@ -1,0 +1,19 @@
+.feedbackBox {
+    position: fixed;
+    display: none;
+    width: 50%;
+    height: 30%;
+    top: 35%;
+    left: 25%;
+    right: auto;
+    bottom: auto;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    overflow-x: hidden;
+    overflow-y: visible;
+}

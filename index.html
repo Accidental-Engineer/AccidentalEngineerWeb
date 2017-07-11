@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Accidental Engineer</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="icon" href="res/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/feedback.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $(".i").hover(function() {
+                var a = $(this).attr("id");
+                console.log(a);
+                $("#a" + a).animate({
+                    width: 'toggle'
+                }, "fast");
+            });
+        });
+        $(document).ready(function() {
+
+            $(".r1,.r2").hover(function() {
+                var b = $(this).attr("id");
+
+                $("#thumbab1,#thumbab2,#thumbab3,#thumbab4").css({
+                  "opacity": "0"
+                });
+                $("#thumb" + b).css({
+                  "opacity": "1"
+                });
+                $("#thumbab1,#thumbab2,#thumbab3,#thumbab4").removeClass("active");
+                $("#thumb" + b).addClass("active");
+
+
+            });
+        });
+    </script>
+</head>
+
+<body datalist="scroll">
+    <div id="container">
+        <div id="menu">
+
+            <ul>
+
+                <a href="#about">
+                  <li class="tab" id="a"><i class="fa fa-book"></i><span class = "link-label">&nbsp;&nbsp;About Us</span></li>
+                </a>
+                <a href="#contactus">
+                  <li class="tab" id="c"><i class="fa fa-address-book"></i><span class = "link-label">&nbsp;&nbsp;Contact Us</span></li>
+                </a>
+                <a href="#service">
+                  <li class="tab" id="s"><i class="fa fa-th-large"></i><span class = "link-label">&nbsp;&nbsp;Services</span></li>
+                </a>
+                <a href="#project">
+                  <li class="tab" id="p">  <i class="fa fa-briefcase"></i><span class = "link-label">&nbsp;&nbsp;Projects</span></li>
+                </a>
+                <a href="#home">
+                  <li class="tab tabon" id="h">  <i class="fa fa-home"></i><span class = "link-label">&nbsp;&nbsp;Home</span></li>
+                </a>
+            </ul>
+        </div>
+        <div id="home" style = "clear: both;">
+            <h1> </h1>
+
+            <div id="homeimg">
+                <img id="img1" src="res/9.jpg">
+
+            </div>
+
+        </div>
+        <div id="project">
+            <h1 class="proani">PROJECTS</h1>
+            <hr class="hr">
+
+            <div class="art">
+                <a href="#">
+                    <div class="i" id="1">
+                        <figure>
+                            <img src="res/3.jpg" alt="">
+                            <figcaption id="a1">SHoutBox</figcaption>
+                        </figure>
+                    </div>
+                </a>
+                <div class="j">
+                    plot
+                </div>
+                <div class="j">hi this is my article.</div>
+            </div>
+
+            <div class="art">
+                <a href="#">
+                    <div class="i" id="2">
+                        <figure>
+                            <img src="res/5.jpg" alt="">
+                            <figcaption id="a2">Jasper</figcaption>
+                        </figure>
+                    </div>
+                </a>
+                <div class="j">
+                    plot
+                </div>
+                <div class="j">hi this is my article.</div>
+            </div>
+            <div class="art">
+                <a href="#">
+                    <div class="i" id="3">
+                        <img src="res/6.jpg" alt="">
+                        <figcaption id="a3">SHoutBox</figcaption>
+                    </div>
+                </a>
+                <div class="j">
+                    plot
+                </div>
+                <div class="j">hi this is my article.</div>
+            </div>
+            <div class="art">
+                <a href="#">
+                    <div class="i" id="4">
+                        <img src="res/8.jpg" alt="">
+                        <figcaption id="a4">SHoutBox</figcaption>
+                    </div>
+                </a>
+                <div class="j">
+                    plot
+                </div>
+                <div class="j">hi this is my article.</div>
+            </div>
+            <a href="#"><h2>More...</h2></a>
+        </div>
+        <div id="service">
+            <div id='serhead'>
+                <h1>SERVICES</h1>
+                <hr>
+            </div>
+            <div class="sertab">
+                <div class="sersec" id="s1">
+
+                    <span><h2 class="serhead" >Web Development</h2></span>
+                    <p class="serpara" id="sb1">Web development is a broad term for the work involved in
+                      developing a web site for the Internet (World Wide Web)
+                      or an intranet (a private network). Web development can
+                      range from developing the simplest static single page of
+                      plain text to the most complex web-based internet
+                      applications, electronic businesses, and social network
+                      services.
+                    <p class="serpara" id="sb2">A more comprehensive list of tasks to which
+                      web development commonly refers, may include web
+                      engineering, web design, web content development,
+                      client liaison, client-side/server-side scripting, web
+                      server and network security configuration, and e-commerce
+                      development. Among web professionals, "web development"
+                      usually refers to the main non-design aspects of building
+                      web sites: writing markup and coding.
+                    </p>
+                      <p class="serpara" id="sb3">Most recently Web
+                      development has come to mean the creation of content
+                      management systems or CMS. These CMS can be made from
+                      scratch, proprietary or open source. In broad terms the
+                      CMS acts as middleware between the database and the user
+                      through the browser. A principle benefit of a CMS is that
+                      it allows non-technical people to make changes to their
+                      web site without having technical knowledge.
+                    </p>
+
+                </div>
+                <div class="sersec" id="s2">
+
+                </div>
+                <div class="sersec" id="s3">
+
+                </div>
+
+            </div>
+            <div class="sertab1">
+                <div class="des">
+                    <img src="res/web.jpg" id="si1">
+                    <img src="res/b.jpg" id="si2">
+                    <img src="res/c.jpg" id="si3">
+
+                </div>
+            </div>
+            <div class="sertab">
+                <div class="sersec">
+                  <div class="imgcircle" id="sc1">
+
+                  </div>
+                  <div class="imgcircle" id="sc2">
+
+                  </div>
+                  <div class="imgcircle" id="sc3">
+
+                  </div>
+                  <div class="imgcircle" id="sc4">
+
+                  </div>
+                  <div class="imgcircle" id="sc5">
+
+                  </div>
+
+                </div>
+                <div class="sersec">
+
+                </div>
+                <div class="sersec">
+
+                </div>
+
+            </div>
+
+        </div>
+        <div id="contactus">
+            <h1>Contact Us</h1>
+            <hr class="hr">
+            <br>
+
+
+        </div>
+        <div id="about">
+
+          <div class="story-img active" id="thumbab1" style="background-image: url('res/tarun_back.jpg'); display: block; opacity: 1;">
+          </div>
+          <div class="story-img" id="thumbab3" style="background-image: url('res/shivam_back.jpg'); display: block; opacity: 0;">
+          </div>
+          <div class="story-img" id="thumbab2" style="background-image: url('res/t.jpg'); display: block; opacity: 0;">
+          </div>
+          <div class="story-img" id="thumbab4" style="background-image: url('res/7.jpg'); display: block; opacity: 0;">
+          </div>
+          <div id="heading"></div>
+          <div id="aboutbody" >
+          <div id ="i"></div>
+                <div class ="HL1"></div>
+                <div class ="HL "></div>
+                <div class ="VL VL1"></div>
+
+                	<div class="r1" id="ab1">
+
+                    <div class="content"><h2>Tarun Kumar</h2></div>
+                		<div class="story" style="background-color:#f4ba49;">
+                      <div class="img"><img src="res/tarun.jpg" width="100px"></div>
+                      <div class="story-con">
+                      <div class="d2"><span class="name">Tarun Kumar</span><br>
+                        <span class="contributor">Founder</span><br>
+                        Pursuing B.Tech in Petroleum Engineering from IIT(ISM) Dhanbad, is passionate about programming and designing. He has good hands at CSS3, including animation and media-query. His programming skills include C, C++, Python and Java.<br>
+                        <span class="contact">Contact: tarun12.tarunkr@gmail.com</span></div>
+                      </div>
+                    </div>
+                	</div>
+                	<div class="r1"  id="ab2">
+                    <div class="content"><h2>Vision</h2></div>
+                    <div class="story" style="background-color:#f4ba49;">
+                      <div class="img"><img src="res/vi.jpeg" width="100px"></div>
+                      <div class="story-con">
+                      <div class="d2"><span class="name">Vision</span><br>
+                        <span class="contributor">OurVision</span><br>
+                            Accidental Engineer is a programming hub open for all. Anyone intrested in programmnig can join this hub. Our organization, Accidental Engineer, works on various real-world projects based on programming, development and designing skills. Anybody interested to contribute can contact us on Facebook and GitHub.<br>
+                        <span class="contact"></span></div>
+                      </div>
+                    </div>
+                	</div>
+
+
+                	<div class="r2" id="ab3">
+                    <div class="content"><h2>Shivam Kumar</h2></div>
+                	<div class="story" style="background-color: #006cad;">
+                    <div class="img"><img src="res/shivam.jpg" width="100px"></div>
+                    <div class="story-con">
+                    <div class="d2"><span class="name">Shivam Kumar</span><br>
+                      <span class="contributor">Founder</span><br>
+                      Pursuing Integrated M. Tech in Mathematics & Computing from IIT(ISM) Dhanbad, has keen interest in Web Development. He has good hands at JavaScript, PHP and MySQL and programming expertise in C and C++.<br>
+                      <span class="contact">Contact: skshivam64@gmail.com</span></div>
+                	</div>
+                	</div>
+                	</div>
+                	<div class="r2" id="ab4">
+                    <div class="content"><h2>Accidental Engineer</h2></div>
+                		<div class="story" style="background-color:#f4ba49;">
+                      <div class="img"><img src="res/9.jpg" width="100px"></div>
+                      <div class="story-con">
+                      <div class="d2"><span class="name" style="font-size:30px">Accidental Engineer</span><br>
+                        <span class="contributor">Company</span><br>
+                        Accidental Engineer is a community of programmers, developers and designers. It works on real world programming, web development and design projects. Follow us on GitHub : <a src="https://github.com/Accidental-Engineer">https://github.com/Accidental-Engineer</a><br>
+                        <span class="contact">Contact: engineeraccidental@gmail.com</span></div>
+                      </div>
+                    </div>
+                	</div>
+
+
+            </div>
+        </div>
+        <div id="footer">
+            <table id="footermain" style="width:100%">
+                <tr>
+                    <td class="tr">
+                        <div id="fm">
+
+                            <h4 class="f"><a href="#home">Home</a></h4>
+                            <h4 class="f"><a href="#project">Project</a></h4>
+                            <h4 class="f"><a href="#service">Services</a></h4>
+                            <h4 class="f"><a href="#contactus">Contact Us</a></h4>
+                            <h4 class="f"><a href="#about">About Us</a></h4>
+                        </div>
+                    </td>
+                    <td class="tr">
+                        <div id="fe">
+                            <h4 class="f"><a href="#contactus">Career</a></h4>
+                            <h4 class="f"><a id = "feedbackBtn" href = "#feedback">Feedback</a></h4>
+                            <a name = "feedback">
+                                                <div class = "feedbackBox" id = "feedbackBox1">
+                                                            <center><i class="fa fa-comments" aria-hidden="true"></i><br/><br/>
+                                                            <pre>Name:      <input type = "text"/></pre><br/>
+                                                            <pre>Email:     <input type = "text"/></pre><br/>
+                                                            <button id = "feedBtn1" type = "button">Next>>></button></center>
+                                                </div>
+                                                <div class = "feedbackBox" id = "feedbackBox2">
+                                                            <center><i class="fa fa-comments" aria-hidden="true"></i><br/><br/>
+                                                            Feedback:  <br/><br/><textarea cols = "40" rows = "3">Please give your valuable feedback.</textarea><br/>
+                                                            <button id = "feedBtn2" type = "button">Finish</button></center>
+                                                </div>
+                                                <div class = "feedbackBox" id = "feedbackBox3">
+                                                            <center><i class="fa fa-check-square-o" aria-hidden="true"></i><br/><br/>
+                                                            Thanks for giving your feedback!</center>
+                                                </div>
+                            </a>
+                            <h4 class="f"><a href="#project">Help</a></h4>
+                            <h4 class="f"><a href="#service">Customer Support</a></h4>
+                        </div>
+                    </td>
+
+                    <td class="tr" style="text-align:center">
+                        <div class="social">
+                            Follow Us:
+                            <a href="https://www.facebook.com/accidentalengineer/"><i class="fa fa-facebook fa-2x hover" aria-hidden="true"></i></a>
+                            <a href="https://github.com/Accidental-Engineer"><i class="fa fa-github fa-2x hover" aria-hidden="true"></i></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div id="fc">Designed and Created By Accidental Engineer
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
