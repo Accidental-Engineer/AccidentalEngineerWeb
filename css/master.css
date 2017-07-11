@@ -16,17 +16,9 @@ html, body {
 
 
 }
-
-
 #menu ul{
     list-style: none;
 }
-
-#menu a  {
-  text-decoration: none;
-  color: white;
-}
-
 .tab {
   float: right;
   width: 12%;
@@ -41,6 +33,7 @@ html, body {
 .tab:hover {
   background: rgba(153, 153, 255, 0.8) ;
   color: black;
+
 }
 #container #menu{
   background-color: rgba(0,0,0,0.5);
@@ -48,11 +41,18 @@ html, body {
   height: 50px;
   width: 100%;
   z-index: 1;
+
+
+
+
 }
+#menu a  {
+  text-decoration: none;
+  color: white;
 
-
+}
 #container #home{
-  background-image: url("../res/2.jpg");
+  background-image: url("../res/images/other/cover.jpg");
   background-repeat: no-repeat;
   height: 22.12%;
   width: 100%;
@@ -169,12 +169,13 @@ html, body {
 }
 figure{
   height: 100%;
+  position: relative;
 
 }
 
 .i figcaption{
   position: absolute;
-  bottom: 180px;
+  bottom: 10px;
   display: none;
   line-height: 15px;
   background-color: #660099;
@@ -214,6 +215,7 @@ figure{
 
 .j {
   margin: 20px;
+  letter-spacing: 1px;
 }
 .art img{
   display: block;
