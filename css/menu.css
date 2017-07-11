@@ -1,0 +1,38 @@
+
+#menu ul{
+    list-style: none;
+}
+
+#menu a  {
+  text-decoration: none;
+  color: white;
+}
+
+.tab {
+  float: right;
+  width: 12%;
+  padding: 0px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.8em;
+  line-height: 42px;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+}
+.tab:hover {
+  background: rgba(153, 153, 255, 0.8) ;
+  color: black;
+}
+#container #menu{
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+}
+
+.tabon{
+  background: rgba(204, 102, 255,0.8) ;
+  border-bottom: 4px solid #ffff4d;
+  color: black;
+}

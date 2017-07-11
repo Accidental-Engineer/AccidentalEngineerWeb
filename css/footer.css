@@ -1,0 +1,46 @@
+#footer{
+  background: gray;
+  width: 100%;
+  overflow-y: visible;
+}
+#footer-icon-bar {
+    width: 60%;
+    overflow: visible;
+    float: left;
+}
+#social-icon-bar{
+  float: left;
+  width: 40%;
+  text-shadow: 0px 0px 10px white;
+}
+#footer-icon-bar a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 0.75em !important;
+    text-shadow: 0px 0px 2px white;
+}
+#footer-icon-bar td{
+  width: 25%;
+  padding-top: 2%;
+  padding-left: 5%;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+
+#footer p{
+  clear: both;
+  text-align: center;
+  width: 100%;
+  font-size: 0.6em;
+  color: white;
+  text-shadow: 0px 0px 5px white;
+}
+.social-icons td{
+  font-size: 2em;
+  width: 15%;
+}
