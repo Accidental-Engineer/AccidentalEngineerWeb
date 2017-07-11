@@ -356,6 +356,10 @@ figure{
   top:0px;
   height:50px;
 }
+#aboutbody {
+    height: calc(100% - 50px);
+    position: relative;
+}
 #heading{
   height:50px;
   width:100%;
