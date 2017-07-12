@@ -493,7 +493,7 @@ background-color:rgba(255, 255, 255,0.4);
 }
 .name{
   font-weight:bold;
-  font-size: 30px;
+  font-size: 1.7em;
 
 }
 
@@ -506,6 +506,7 @@ background-color:rgba(255, 255, 255,0.4);
   color:#404040;
 }
 .d2{
+  font-size: 0.9em;
 float:right;
 width:70%;
 position:relative;
