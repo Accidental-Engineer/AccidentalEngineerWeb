@@ -299,13 +299,11 @@ figure{
 .sertab1{
   float: left;
   width: 30%;
-
   height: 90%;
 }
 
 .sersec{
 
-  border: 1px solid red;
   height: 33.33%;
   overflow: hidden;
 
